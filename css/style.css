@@ -21,11 +21,16 @@ img{
 .container{
     margin: 0 auto;
     width: 1000px;
+    padding: 25px 25px;
 }
 .container-2{
     width: 1000px;
+    padding: 25px 25px;
 }
 
+.view-60{
+    height:60vh;
+}
 .view-80{
     height: 80vh;
 }
@@ -39,21 +44,32 @@ img{
 /*Header*/
 
 header{
-    height: 100px;
     width: 100%;
     background-color: blueviolet;
     position: relative;
 }
+.header-sctn{
+    background-color: cadetblue;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    
+}
 
+
+/*Nav*/
+.main-nav{
+    height: 50px;
+}
 .main-nav .left-nav{
-    height: 100px;
+    height: 200px;
     background-color: brown;
     float: left;
     width: 30%;
 }
 
 .main-nav .right-nav{
-    height: 100px;
+    height: 200px;
     background-color: brown;
     float: right;
     text-align: right;
@@ -61,7 +77,7 @@ header{
 }
 
 #logo{
-    line-height: 100px;
+    line-height: 200px;
     float: left;
     vertical-align: middle;
     margin-right: 5%;
@@ -81,13 +97,7 @@ header{
     margin-right: 5%;
 }
 
-.header-sctn{
-    background-color: cadetblue;
-    position: relative;
-    top: 80px;
-    width: 100%;
-    
-}
+
 
 
 /*Main*/
@@ -103,7 +113,7 @@ main .first-sctn{
 
 
 main .first-sctn .row{
-    width: 70%;
+    width: 80%;
     height: 800px;
     position: absolute;
     top: 50%;
@@ -123,7 +133,6 @@ main .first-sctn .row .col{
 .first-sctn .first-box{
     background-color: cornflowerblue;
     height: 100px;
-    width: 100%;
     margin: 720px auto;
     border: 1px solid black;
 
@@ -135,13 +144,12 @@ main .second-sctn{
     width: 100%;
     background-color: darkolivegreen;
     position: relative;
-    top: 1550px;
-        
+    top: 1030px;
     
 }
 
 .box-l-r{
-    width: 70%;
+    width: 80%;
     height: 60vh;
     border: 1px solid black;
     position: absolute;
@@ -173,14 +181,14 @@ main .second-sctn{
     width: 100%;
     background-color: darksalmon;
     position: relative;
-    top: 1550px;
-    height: 100vh;
+    top: 1030px;
+    height: 1200px;
 }
 
 .third-sctn .row{
     background-color: darkviolet;
-    height: 80%;
-    width: 70%;
+    height: 800px;
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -190,18 +198,29 @@ main .second-sctn{
 
 .third-sctn .row .col{
     width: calc(100% / 3);
-    height: 50%;
+    height: 400px;
     border: 1px solid black;
     float: left;
 }
+
+.third-sctn .partner{
+    background-color: darkkhaki;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 /*Sezione 4*/
 
 .fourth-sctn{
     width: 100%;
+    height: 100vh;
     background-color: coral;
     position: relative;
-    top: 1550px;
+    top: 1030px;
     
 }
 
@@ -210,9 +229,39 @@ main .second-sctn{
     height: 400px;
     background-color: gold;
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     left: 0;
 }
+
+.fourth-sctn .row{
+    background-color: darkviolet;
+    height: 40px;
+    width: 70%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.brand-text{
+    width: 640px;
+    height: 400px;
+    position: absolute;
+    background-color: burlywood;
+    top: 0;
+    left: 50%;   
+    transform: translateX(-50%); 
+}
+
+.fourth-sctn .row .col{
+    float: left;
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: chocolate;
+    border: 1px solid black;
+}
+
 
 .fourth-sctn .brand-square-right{
     width: 400px;
@@ -220,10 +269,13 @@ main .second-sctn{
     background-color: gold;
     position: absolute;
     right: 0;
-    bottom: 0px;
+    top: 0px;
 }
 
 
+
+
+/*Blocchi dei partner*/
 #brand-1{
     background-color: green;
     width: 200px;
@@ -261,11 +313,7 @@ main .second-sctn{
 
 }
 
-.brand-text{
-    background-color: grey;
-    height: 100%;
-    width: 400px;
-}
+
 
 #brand-5{
     background-color: green;
@@ -303,3 +351,34 @@ main .second-sctn{
     right: 0;
 
 }
+
+
+
+/*Sezione 5*/
+.fifth-sctn{
+    width: 100%;
+    background-color: darkcyan;
+    position: relative;
+    top: 1030px;
+}
+
+.fifth-sctn .faq{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 80%;
+    background-color: darkgray;
+}
+    
+
+
+/*Footer*/
+
+.foot-section{
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    top: 1030px;
+}
+
