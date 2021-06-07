@@ -23,6 +23,10 @@ img{
     width: 1000px;
 }
 
+.view-80{
+    height: 80vh;
+}
+
 
 
 /*Header*/
@@ -71,7 +75,6 @@ header{
 }
 
 .header-sctn{
-    height: 80vh;
     background-color: cadetblue;
     position: relative;
     top: 80px;
@@ -84,7 +87,7 @@ header{
 
 main .first-sctn{
     width: 100%;
-    height: 1200px;
+    height: 1000px;
     background-color: chartreuse;
     position: absolute;
     top:650px;
@@ -114,7 +117,45 @@ main .first-sctn .row .col{
     background-color: cornflowerblue;
     height: 100px;
     width: 100%;
-    margin: 850px auto;
+    margin: 720px auto;
     border: 1px solid black;
 
+}
+
+/*Sezione 2*/
+
+main .second-sctn{
+    width: 100%;
+    background-color: darkolivegreen;
+    position: relative;
+    top: 1550px;
+        
+    
+}
+
+.box-l-r{
+    width: 70%;
+    height: 60vh;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+ .second-sctn .box-left{
+    width: 60%;
+    height: 100%;
+    background-color: darkgreen;
+    position: absolute;
+
+}
+
+.second-sctn .box-right{
+    width: 40%;
+    height: 100%;
+    background-color: darkmagenta;
+    position: absolute;
+    right: 0;
 }
