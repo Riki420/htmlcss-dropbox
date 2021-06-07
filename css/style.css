@@ -41,6 +41,11 @@ body{
     float: right;
 }
 
+h1{
+    font-weight: 800;
+    font-size: 40px;
+
+}
 
 
 /*Header*/
@@ -49,14 +54,6 @@ header{
     width: 100%;
     position: relative;
 }
-.header-sctn{
-    background-color: cadetblue;
-    position: relative;
-    top: 80px;
-    width: 100%;
-    
-}
-
 
 /*Nav*/
 
@@ -79,13 +76,25 @@ header{
     color: black;
 }
 
-.main-nav a.btn-small{
+.main-nav a.btn-small,
+.jumbo-text a.btn-large{
     background-color: #0061ff;
     color: #fff;
-    margin-left: 10px;
     padding: 4px 10px;
+    text-decoration: none;
 
 }
+
+.main-nav a:hover{
+    text-decoration: underline;
+}
+
+.main-nav a.btn-small:hover{
+    background-color:#3276e4;
+    text-decoration: none;
+}
+
+
 
 /*Logo*/
 
@@ -108,6 +117,40 @@ header{
 }
 
 
+/*Jumbo*/
+.header-sctn{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    padding: 0 10%;
+    background-color: #b4d0e7;
+    
+}
+
+.jumbo{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 155px;
+    z-index: 1;
+}
+
+.jumbo-text{
+    width: 40%;
+    
+}
+.par-jumbo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.entity{
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 20px;
+    
+}
 
 
 
