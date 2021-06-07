@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
+/*Generics*/
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
-
 
 .clearfix::after{
     clear: both;
@@ -18,12 +18,8 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 1000px;
-    padding: 25px 25px;
-}
-.container-2{
-    width: 1000px;
-    padding: 25px 25px;
+    max-width: 1200px;
+
 }
 
 .view-60{
@@ -46,6 +42,10 @@ h1{
 
 }
 
+img{
+    width: 100%;
+}
+
 
 /*Header*/
 
@@ -57,16 +57,12 @@ header{
 /*Nav*/
 
 .main-nav .left-nav{
-    height: 100px;
     float: left;
     width: 600px;
     line-height: 68px;
 }
 .right-nav{
-    height: 100px;
     float: right;
-
-    width: 600px;
     line-height: 68px;
 }
 
@@ -139,6 +135,14 @@ header{
     width: 40%;
     
 }
+
+.first-sctn h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
 .par-jumbo{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -152,286 +156,4 @@ header{
 
 
 
-/*Main*/
-
-main .first-sctn{
-    width: 80%;
-    height: auto;
-    position: absolute;
-    top:1200px;
-} 
-
-
-
-main .first-sctn .row{
-    width: 80%;
-    height: 800px;
-    position: absolute;
-    top: 50%;
-    left:65%;
-    transform: translate(-50%, -50%);
-}
-
-main .first-sctn .row .col{
-    float: left;
-    width: calc(80% / 3);
-    height: 600px;
-    border: 1px solid black;
-    margin: 10px 10px;
-   
-}
-
-.first-sctn .first-box{
-    height: 100px;
-    width: 67%;
-    position: absolute;
-    top: 250px;
-    left: 300px;
-    border: 1px solid black
-
-}
-
-/*Sezione 2*/
-
-main .second-sctn{
-    width: 100%;
-    background-color: darkolivegreen;
-    position: relative;
-    top: 1030px;
-    
-}
-
-.box-l-r{
-    width: 80%;
-    height: 60vh;
-    border: 1px solid black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
- .second-sctn .box-left{
-    width: 60%;
-    height: 100%;
-    background-color: darkgreen;
-    position: absolute;
-
-}
-
-.second-sctn .box-right{
-    width: 40%;
-    height: 100%;
-    background-color: darkmagenta;
-    position: absolute;
-    right: 0;
-}
-
-/*Sezione 3*/
-
-.third-sctn{
-    width: 100%;
-    background-color: darksalmon;
-    position: relative;
-    top: 1030px;
-    height: 1200px;
-}
-
-.third-sctn .row{
-    background-color: darkviolet;
-    height: 800px;
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-}
-
-.third-sctn .row .col{
-    width: calc(100% / 3);
-    height: 400px;
-    border: 1px solid black;
-    float: left;
-}
-
-.third-sctn .partner{
-    background-color: darkkhaki;
-    width: 80%;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-
-/*Sezione 4*/
-
-.fourth-sctn{
-    width: 100%;
-    height: 100vh;
-    background-color: coral;
-    position: relative;
-    top: 1030px;
-    
-}
-
-.fourth-sctn .brand-square{
-    width: 400px;
-    height: 400px;
-    background-color: gold;
-    position: absolute;
-    top: 0px;
-    left: 0;
-}
-
-.fourth-sctn .row{
-    background-color: darkviolet;
-    height: 40px;
-    width: 70%;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-}
-
-.brand-text{
-    width: 640px;
-    height: 400px;
-    position: absolute;
-    background-color: burlywood;
-    top: 0;
-    left: 50%;   
-    transform: translateX(-50%); 
-}
-
-.fourth-sctn .row .col{
-    float: left;
-    width: calc(100% / 2);
-    height: 200px;
-    background-color: chocolate;
-    border: 1px solid black;
-}
-
-
-.fourth-sctn .brand-square-right{
-    width: 400px;
-    height: 400px;
-    background-color: gold;
-    position: absolute;
-    right: 0;
-    top: 0px;
-}
-
-
-
-
-/*Blocchi dei partner*/
-#brand-1{
-    background-color: green;
-    width: 200px;
-    height: 200px;
-
-}
-
-#brand-2{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-}
-
-#brand-3{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-}
-
-#brand-4{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-}
-
-
-
-#brand-5{
-    background-color: green;
-    width: 200px;
-    height: 200px;
-
-}
-
-#brand-6{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-}
-
-#brand-7{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-}
-
-#brand-8{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-}
-
-
-
-/*Sezione 5*/
-.fifth-sctn{
-    width: 100%;
-    background-color: darkcyan;
-    position: relative;
-    top: 1030px;
-}
-
-.fifth-sctn .faq{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    width: 80%;
-    background-color: darkgray;
-}
-    
-
-
-/*Footer*/
-
-.foot-section{
-    background-color: rgb(58, 58, 58);
-    position: relative;
-    top: 1030px;
-}
 
