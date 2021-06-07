@@ -8,9 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-img{
-    width: 100%;
-}
+
 
 .clearfix::after{
     clear: both;
@@ -35,6 +33,10 @@ img{
     height: 80vh;
 }
 
+.f-left{
+    float: left;
+}
+
 .f-right{
     float: right;
 }
@@ -45,7 +47,6 @@ img{
 
 header{
     width: 100%;
-    background-color: blueviolet;
     position: relative;
 }
 .header-sctn{
@@ -58,44 +59,54 @@ header{
 
 
 /*Nav*/
-.main-nav{
-    height: 50px;
-}
+
 .main-nav .left-nav{
-    height: 200px;
-    background-color: brown;
+    height: 100px;
     float: left;
-    width: 30%;
+    width: 600px;
+    line-height: 68px;
+}
+.right-nav{
+    height: 100px;
+    float: right;
+
+    width: 600px;
+    line-height: 68px;
 }
 
-.main-nav .right-nav{
-    height: 200px;
-    background-color: brown;
-    float: right;
-    text-align: right;
-    width: 30%;
+.main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a.btn-small{
+    background-color: #0061ff;
+    color: #fff;
+    margin-left: 10px;
+    padding: 4px 10px;
+
+}
+
+/*Logo*/
+
+.logo{
+    margin-right: 1%;
+    float: left;
 }
 
 #logo{
-    line-height: 200px;
-    float: left;
-    vertical-align: middle;
-    margin-right: 5%;
-    
+    vertical-align: text-bottom;
 }
 
 .main-nav ul{
     list-style: none;
-    line-height: 80px;
-    vertical-align: middle;
-
-
 }
 
 .main-nav ul li{
     display: inline-block;
-    margin-right: 5%;
+    margin: 0 10px;
 }
+
 
 
 
