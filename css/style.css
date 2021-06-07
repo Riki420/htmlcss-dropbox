@@ -30,6 +30,10 @@ img{
     height: 80vh;
 }
 
+.f-right{
+    float: right;
+}
+
 
 
 /*Header*/
@@ -195,7 +199,7 @@ main .second-sctn{
 
 .fourth-sctn{
     width: 100%;
-    background-color: deeppink;
+    background-color: coral;
     position: relative;
     top: 1550px;
     
@@ -206,7 +210,19 @@ main .second-sctn{
     height: 400px;
     background-color: gold;
     position: absolute;
+    bottom: 0px;
+    left: 0;
 }
+
+.fourth-sctn .brand-square-right{
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
 
 #brand-1{
     background-color: green;
@@ -236,6 +252,49 @@ main .second-sctn{
 }
 
 #brand-4{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.brand-text{
+    background-color: grey;
+    height: 100%;
+    width: 400px;
+}
+
+#brand-5{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+
+}
+
+#brand-6{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+#brand-7{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+#brand-8{
     background-color: blue;
     width: 200px;
     height: 200px;
