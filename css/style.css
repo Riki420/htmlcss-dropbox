@@ -24,6 +24,7 @@ img{
 }
 
 
+
 /*Header*/
 
 header{
@@ -75,7 +76,6 @@ header{
     position: relative;
     top: 80px;
     width: 100%;
-    margin-bottom: 20px ;
     
 }
 
@@ -93,27 +93,28 @@ main .first-sctn{
 
 
 main .first-sctn .row{
-    width: 80%;
+    width: 70%;
     height: 800px;
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    padding-left: 15%;
 }
 
 main .first-sctn .row .col{
     float: left;
-    width: 26%;
+    width: calc(100% / 3);
     height: 600px;
-    border: 1px solid white;
     background-color: chocolate;
+    border: 1px solid black;
+   
 }
 
 .first-sctn .first-box{
     background-color: cornflowerblue;
     height: 100px;
-    width: 70%;
-    margin: 900px auto;
+    width: 100%;
+    margin: 850px auto;
+    border: 1px solid black;
 
 }
