@@ -46,6 +46,19 @@ img{
     width: 100%;
 }
 
+.content{
+    width: 100%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 650px;
+    padding: 150px;
+    
+
+}
+
 
 /*Header*/
 
@@ -154,6 +167,14 @@ header{
     
 }
 
+/*Sezione 3 Colonne*/
 
+.col{
+    width: calc(80% / 3);
+    height: 600px;
+    float: left;
+    margin: 1%;
+    border: 1px solid black;
+}
 
 
