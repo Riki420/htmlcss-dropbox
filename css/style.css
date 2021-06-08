@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Generics*/
+/******+Generics********/
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -22,19 +22,8 @@ body{
 
 }
 
-.view-60{
-    height:60vh;
-}
-.view-80{
-    height: 80vh;
-}
-
-.f-left{
+.col{
     float: left;
-}
-
-.f-right{
-    float: right;
 }
 
 h1{
@@ -48,19 +37,40 @@ img{
 
 .content{
     width: 100%;
-    background-color: blueviolet;
-    border: 1px solid black;
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    top: 650px;
-    padding: 150px;
-    
+    height: auto;
+    padding: 200px;
 
 }
 
+.w-33{
+    width: calc(100% / 3);
+}
 
-/*Header*/
+.text-col{
+    font-size: 18px;
+    
+}
+
+.btn{
+    background-color: #0061ff;
+    color: #fff;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.pad-1{
+    padding: 0 5px;
+}
+
+.text-gray{
+    color: gray;
+}
+
+/*********Header***********/
 
 header{
     width: 100%;
@@ -84,8 +94,8 @@ header{
     color: black;
 }
 
-.main-nav a.btn-small,
-.jumbo-text a.btn-large{
+.main-nav a.btn,
+.jumbo-text a.btn{
     background-color: #0061ff;
     color: #fff;
     padding: 4px 10px;
@@ -167,14 +177,53 @@ header{
     
 }
 
-/*Sezione 3 Colonne*/
+/********Main********/
 
-.col{
-    width: calc(80% / 3);
-    height: 600px;
-    float: left;
-    margin: 1%;
-    border: 1px solid black;
+
+/*3 Col*/
+
+main .head-col{
+    margin-top: 40px;
+    border:1px solid black;
+    text-align: center;
+    padding: 10px;
 }
 
 
+.col-list{
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.far, .fas{
+    margin-right:2%;
+}
+
+.check-list{
+    list-style: none;
+}
+
+.check-list li{
+    margin-top: 20px;
+}
+
+.fa-check{
+    color: #0000ff;
+}
+
+.border-col{
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+.down-box{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    
+}
+
+.head-box{
+    border: 1px solid black;
+}
