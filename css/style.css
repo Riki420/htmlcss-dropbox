@@ -324,6 +324,7 @@ main .head-col{
     height: 400px;
     float: left;
     position: relative;
+    padding: 25px;
     
 }
 
@@ -450,6 +451,11 @@ main .head-col{
     right: 0;
     filter: invert(1);
 
+}
+
+.team-logo{
+    width: 25%;
+    margin-bottom: 6%;
 }
 
 /*HOVER LOGHI TEAM*/
