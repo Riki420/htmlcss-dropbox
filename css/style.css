@@ -127,6 +127,10 @@ img{
     text-align: left;
 }
 
+.align-r{
+    text-align: right;
+}
+
 .text-col{
     font-size: 18px;
     
@@ -441,4 +445,25 @@ main .head-col{
     right: 0;
     filter: invert(1);
 
+}
+
+/*SEZIONE FAQ*/
+
+.faq{
+    /* border-bottom: 1px solid black; */
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.fas.fa-angle-down{
+    margin-left: 400px;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    height: 60vh;
 }
