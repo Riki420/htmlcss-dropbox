@@ -37,9 +37,9 @@ img{
 
 .content{
     width: 100%;
-    height: auto;
-    padding: 150px;
-    margin: 0 auto;
+    padding: 0 150px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 
 }
 /*WIDTH*/
@@ -71,6 +71,15 @@ img{
     padding: 4px 10px;
     text-decoration: none;
 }
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
 /*MARGINI E PADDING*/
 .mt-20{
     margin-top: 20px;
@@ -78,6 +87,18 @@ img{
 
 .mb-20{
     margin-bottom: 50px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
 }
 
 .pad-1{
@@ -124,15 +145,6 @@ header{
 .main-nav a{
     text-decoration: none;
     color: black;
-}
-
-.main-nav a.btn,
-.jumbo-text a.btn{
-    background-color: #0061ff;
-    color: #fff;
-    padding: 4px 10px;
-    text-decoration: none;
-
 }
 
 .main-nav a:hover{
@@ -252,7 +264,12 @@ main .head-col{
 .down-box{
     position: relative;
     top: 20px;
+    border: 1px solid black;
     
+}
+
+.head-box{
+    border-bottom: 1px solid black;
 }
 
 /*Sezione IMG E TESTO*/
@@ -266,8 +283,22 @@ main .head-col{
 }
 
 
+/*SEZIONE TEAM*/
 
+/*Quadrato */
 
+.square-team{
+    width: calc(100% / 3);
+    border: gray 1px solid;
+    height: 330px;
+    float: left;
+    
+}
 
+.team{
+    width: 100%;
+}
+
+/*TEAM LOGHI*/
 
 
