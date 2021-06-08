@@ -467,3 +467,22 @@ footer{
     background-color: black;
     height: 60vh;
 }
+
+footer .col{
+    width: calc(100% / 5);
+    
+}
+
+.foot-list{
+    color:white;
+    list-style: none;
+    padding: 10px;
+}
+
+.foot-list h2{
+    margin-bottom: 20px;
+}
+
+.foot-list li{
+    margin-top: 20px;
+}
