@@ -17,8 +17,8 @@ body{
 }
 
 .container{
-    margin: 0 auto;
     max-width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -38,36 +38,67 @@ img{
 .content{
     width: 100%;
     height: auto;
-    padding: 200px;
+    padding: 150px;
+    margin: 0 auto;
 
 }
-
+/*WIDTH*/
 .w-33{
     width: calc(100% / 3);
 }
-
-.text-col{
-    font-size: 18px;
-    
+.w-60{
+    width:60%
 }
 
-.btn{
+.w-40{
+    width: 40%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.btn-blue{
     background-color: #0061ff;
     color: #fff;
     padding: 4px 10px;
     text-decoration: none;
 }
-
+.btn-white{
+    border: 1px solid black;
+    color: #000;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+/*MARGINI E PADDING*/
 .mt-20{
     margin-top: 20px;
 }
 
-.pad-1{
-    padding: 0 5px;
+.mb-20{
+    margin-bottom: 50px;
 }
 
+.pad-1{
+    padding: 0 2%;
+}
+
+/*ORIENTAMENTE TESTO E COLORI*/
 .text-gray{
     color: gray;
+}
+
+.align-c{
+    text-align: center;
+}
+
+.align-l{
+    text-align: left;
+}
+
+.text-col{
+    font-size: 18px;
+    
 }
 
 /*********Header***********/
@@ -150,7 +181,7 @@ header{
     height: auto;
     position: absolute;
     right: 0;
-    top: 155px;
+    top: 115px;
     z-index: 1;
 }
 
@@ -218,12 +249,24 @@ main .head-col{
 }
 
 .down-box{
-    text-align: center;
     position: relative;
     top: 20px;
     
 }
 
-.head-box{
-    border: 1px solid black;
+/*Sezione IMG E TESTO*/
+
+.box-img{
+    float: left;
 }
+.box-text{
+    padding: 25px 25px;
+    float: left;
+}
+
+
+
+
+
+
+
