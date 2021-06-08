@@ -38,7 +38,7 @@ img{
 .content{
     width: 100%;
     padding: 0 150px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 100px;
 
 }
@@ -149,6 +149,10 @@ header{
 
 /*Nav*/
 
+.main-nav{
+    padding: 10px;
+}
+
 .main-nav .left-nav{
     float: left;
     width: 600px;
@@ -168,8 +172,20 @@ header{
     text-decoration: underline;
 }
 
-.main-nav a.btn-small:hover{
+.main-nav a.btn-blue{
+    background-color:#0061ff;
+    text-decoration: none;
+    color: white;
+}
+
+
+a.btn-blue:hover{
     background-color:#3276e4;
+    text-decoration: none;
+}
+
+a.btn-white:hover{
+    background-color:#cacaca;
     text-decoration: none;
 }
 
@@ -234,8 +250,7 @@ header{
 
 .entity{
     font-size: 36px;
-    margin-top: 20px;
-    
+    padding-bottom: 10px ;
 }
 
 /********Main********/
@@ -280,6 +295,10 @@ main .head-col{
     padding: 0 10px;
 }
 
+.down{
+    padding: 2%;
+}
+
 .down-box{
     position: relative;
     top: 20px;
@@ -289,6 +308,7 @@ main .head-col{
 
 .head-box{
     border-bottom: 1px solid black;
+    padding: 8px;
 }
 
 .text-box{
@@ -598,8 +618,22 @@ main .head-col{
     padding: 20px;
 }
 
+.faq-section > h1{
+    margin-bottom: 60px;
+
+}
+
 .fas.fa-angle-down{
     margin-left: 400px;
+}
+
+.faq-section:last-child{
+    border-bottom: 1px solid black;
+}
+
+.faq-section a{
+    text-decoration: none;
+    color: #000;
 }
 
 
@@ -608,7 +642,7 @@ main .head-col{
 
 footer{
     background-color: black;
-    height: 60vh;
+    height: 80vh;
 }
 
 footer .col{
@@ -629,3 +663,20 @@ footer .col{
 .foot-list li{
     margin-top: 20px;
 }
+
+.foot-list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hr-white{
+  color: #fff;
+    width: 10%;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+footer p{
+    color: white;
+}
+
