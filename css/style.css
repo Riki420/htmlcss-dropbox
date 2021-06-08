@@ -70,6 +70,7 @@ img{
     color: #000;
     padding: 4px 10px;
     text-decoration: none;
+    background-color: #fff;
 }
 
 .f-left{
@@ -91,6 +92,14 @@ img{
 
 .mt-50{
     margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-120{
+    margin-top: 120px;
 }
 
 .mr-20{
@@ -121,6 +130,10 @@ img{
 .text-col{
     font-size: 18px;
     
+}
+
+.text-red{
+    color: #61082b;
 }
 
 /*********Header***********/
@@ -288,17 +301,144 @@ main .head-col{
 /*Quadrato */
 
 .square-team{
-    width: calc(100% / 3);
+    width: 400px;
     border: gray 1px solid;
-    height: 330px;
+    height: 400px;
     float: left;
+    position: relative;
+    
+}
+
+.square-team-2{
+    width: 640px;
+    border: gray 1px solid;
+    background-color: #f5f5f5;
+    height: 400px;
+    float: left;
+    position: relative;
     
 }
 
 .team{
     width: 100%;
+    height: 100vh;
+    background-color: #b4d0e7;
+    
 }
 
 /*TEAM LOGHI*/
 
+#brand-1{
+    background-image: url('../img/designit.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #5c2b63;
+    width: 200px;
+    height: 200px;
+    filter: invert(1);
+}
 
+#brand-2{
+    background-image: url('../img/arizona_state_university.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #9df7d4;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: invert(1);
+
+}
+
+#brand-3{
+    background-image: url('../img/university_of_florida.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #ff6b30;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: invert(1);
+
+}
+
+#brand-4{
+    background-image: url('../img/topps.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #00e3e3;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: invert(1);
+
+}
+
+#brand-5{
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #29ffe0;
+    width: 200px;;
+    width: 200px;
+    height: 200px;
+    filter: invert(1);
+
+   
+}
+
+#brand-6{
+    background-image: url('../img/hearst_corp.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #4a2e17;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: invert(1);
+
+}
+
+#brand-7{
+    background-image: url('../img/lonely_planet.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #f2db7d;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: invert(1);
+
+}
+
+#brand-8{
+    background-image: url('../img/clear_channel.svg');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #0026cf;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: invert(1);
+
+}
