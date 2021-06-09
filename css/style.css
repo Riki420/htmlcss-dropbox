@@ -43,7 +43,7 @@ img{
 }
 .content-2{
     width: 100%;
-    margin-top: 180px;
+    margin-top: 240px;
     margin-bottom: 100px;
 }
 /*WIDTH*/
@@ -151,7 +151,6 @@ img{
 
 header{
     width: 100%;
-    position: relative;
 }
 
 /*Nav*/
@@ -159,6 +158,10 @@ header{
 
 .main-nav{
     padding: 10px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 3;
+    width: 100%;
 }
 
 .main-nav .left-nav{
@@ -363,7 +366,6 @@ main .col:first-child .check-list{
     background-color: #f5f5f5;
     height: 400px;
     float: left;
-    position: relative;
     padding: 25px;
     
 }
