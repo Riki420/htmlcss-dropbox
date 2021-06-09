@@ -239,8 +239,9 @@ a.btn-white:hover{
     position: relative;
     top: 80px;
     width: 100%;
-    padding: 0 10%;
+    padding: 2% 10%;
     background-color: #b4d0e7;
+    height: 60vh;
     
 }
 
@@ -252,6 +253,8 @@ a.btn-white:hover{
     top: 115px;
     z-index: 1;
 }
+
+
 
 .jumbo-text{
     width: 40%;
@@ -517,7 +520,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #5c2b63;
-    border: 10px solid black;
+    border: 16px solid #68345f;
     width: 200px;
     height: 200px;
     filter: invert(1);
@@ -529,7 +532,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #9df7d4;
-    border: 10px solid black;
+    border: 16px solid #b2fadf;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -545,7 +548,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #ff6b30;
-    border: 10px solid black;
+    border: 16px solid #ff8757;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -561,7 +564,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #00e3e3;
-    border: 10px solid black;
+    border: 16px solid #5bf8f8;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -577,7 +580,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #29ffe0;
-    border: 10px solid black;
+    border: 16px solid #56f8e0;
     width: 200px;
     width: 200px;
     height: 200px;
@@ -592,7 +595,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #4a2e17;
-    border: 10px solid black;
+    border: 16px solid #533821;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -608,7 +611,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #f2db7d;
-    border: 10px solid black;
+    border: 16px solid #e9da9c;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -624,7 +627,7 @@ main .col:first-child .check-list{
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: #0026cf;
-    border: 10px solid black;
+    border: 16px solid #3c4983;
     width: 200px;
     height: 200px;
     position: absolute;
