@@ -155,6 +155,10 @@ img{
     text-decoration: underline;
 }
 
+.font-60{
+    font-size: 60px;
+}
+
 /*********Header***********/
 
 header{
@@ -241,7 +245,7 @@ a.btn-white:hover{
     width: 100%;
     padding: 2% 10%;
     background-color: #b4d0e7;
-    height: 60vh;
+    height: 80vh;
     
 }
 
@@ -250,7 +254,7 @@ a.btn-white:hover{
     height: auto;
     position: absolute;
     right: 0;
-    top: 115px;
+    top: 200px;
     z-index: 1;
 }
 
@@ -270,11 +274,12 @@ a.btn-white:hover{
 }
 .par-jumbo{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .entity{
     font-size: 36px;
+    
     padding-bottom: 10px ;
 }
 
