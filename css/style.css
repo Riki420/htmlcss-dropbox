@@ -279,7 +279,6 @@ main .head-col{
 
 .check-list{
     list-style: none;
-    padding-bottom: 200px;
 }
 
 
@@ -322,7 +321,7 @@ main .head-col{
     float: left;
 }
 .box-text{
-    padding: 25px 25px;
+    padding: 10px 10px;
     float: left;
 }
 
