@@ -222,9 +222,12 @@ a.btn-white:hover{
     margin: 0 10px;
 }
 
+/*******Main****/
+
 
 /*Jumbo*/
-.header-sctn{
+
+.jumbotron{
     position: relative;
     top: 80px;
     width: 100%;
@@ -263,8 +266,6 @@ a.btn-white:hover{
     font-size: 36px;
     padding-bottom: 10px ;
 }
-
-/********Main********/
 
 
 /*3 Col*/
@@ -311,6 +312,7 @@ main .col:first-child .check-list{
     
 }
 
+/*Box Sotto le tre colonne*/
 .down{
     padding: 2%;
 }
@@ -351,7 +353,6 @@ main .col:first-child .check-list{
 
 /*****SEZIONE TEAM*******/
 
-/*Quadrato */
 
 .square-team{
     width: 400px;
@@ -628,7 +629,6 @@ main .col:first-child .check-list{
 /*SEZIONE FAQ*/
 
 .faq{
-    /* border-bottom: 1px solid black; */
     border-top: 1px solid black;
     padding: 20px;
 }
@@ -653,7 +653,7 @@ main .col:first-child .check-list{
 
 
 
-/*FOOTER*/
+/****+FOOTER*****/
 
 footer{
     background-color: black;
