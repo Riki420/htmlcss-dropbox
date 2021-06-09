@@ -151,6 +151,10 @@ img{
     text-indent: 20px;
 }
 
+.mark{
+    text-decoration: underline;
+}
+
 /*********Header***********/
 
 header{
@@ -352,7 +356,7 @@ main .col:first-child .check-list{
 /*****GRIGLIA*****/
 
 .row .col{
-    padding: 20px;
+    padding: 35px;
 }
 
 /*****SEZIONE TEAM*******/
