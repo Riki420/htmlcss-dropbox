@@ -38,9 +38,13 @@ img{
 .content{
     width: 100%;
     padding: 0 150px;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-bottom: 100px;
-
+}
+.content-2{
+    width: 100%;
+    margin-top: 180px;
+    margin-bottom: 100px;
 }
 /*WIDTH*/
 .w-33{
@@ -90,6 +94,8 @@ img{
     margin-bottom: 50px;
 }
 
+.mb-60
+
 .mt-50{
     margin-top: 50px;
 }
@@ -117,6 +123,7 @@ img{
 /*ORIENTAMENTE TESTO E COLORI*/
 .text-gray{
     color: gray;
+    font-size: 14px;
 }
 
 .align-c{
@@ -148,6 +155,7 @@ header{
 }
 
 /*Nav*/
+
 
 .main-nav{
     padding: 10px;
@@ -293,6 +301,11 @@ main .head-col{
 .border-col{
     border: 1px solid black;
     padding: 0 10px;
+}
+
+main .col:first-child .check-list{
+    padding-bottom: 65px;
+    
 }
 
 .down{
