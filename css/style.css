@@ -147,6 +147,10 @@ img{
     color: #61082b;
 }
 
+.text-ind{
+    text-indent: 20px;
+}
+
 /*********Header***********/
 
 header{
